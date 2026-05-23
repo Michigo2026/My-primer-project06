@@ -1,0 +1,101 @@
+/* ==========================================
+   RESETEO Y ESTILOS GENERALES
+   ========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f7f9fc;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* ==========================================
+   TARJETA PRINCIPAL DE BIENVENIDA
+   ========================================== */
+.contenedor-inicio {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    border-top: 6px solid #f2a900; /* Detalle superior en Amarillo */
+    border-bottom: 6px solid #ce1126; /* Detalle inferior en Rojo */
+    margin: auto 0;
+}
+
+.titulo-bienvenida {
+    font-size: 28px;
+    color: #0033a0; /* Azul Institucional */
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.descripcion {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* ==========================================
+   SECCIÓN DE ACCIÓN (BOTÓN)
+   ========================================== */
+.zona-accion h2 {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Transformamos el enlace <a> en un botón idéntico al de tu formulario */
+.boton-registro {
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    padding: 14px;
+    background-color: #0033a0; /* Fondo Azul para contrastar con el del formulario */
+    color: #ffffff; /* Texto blanco impecable */
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 51, 160, 0.2);
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.boton-registro:hover {
+    background-color: #002266; /* Azul más oscuro al pasar el cursor */
+}
+
+.boton-registro:active {
+    transform: scale(0.98);
+}
+
+/* ==========================================
+   PIE DE PÁGINA (FOOTER)
+   ========================================== */
+.top-inferior {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #e0e0e0;
+    font-size: 14px;
+    color: #666666;
+    margin-top: auto;
+}
+
+.top-inferior .copy {
+    margin-bottom: 0;
+}
